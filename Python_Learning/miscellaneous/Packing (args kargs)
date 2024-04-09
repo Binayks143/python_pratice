@@ -1,0 +1,59 @@
+#e.g. 1
+print('Noraml : using default value of args')
+def person(name,age,phno,add):
+    print(name)
+    print(age)
+    print(phno)
+    print(add)
+person('Binay',28,9856665, 'rkl')
+
+#E.g. 2
+print('\nUsing packing i.e. Keyworded Variable Length Arguments: ')
+
+def person1(name,*data):
+    print(name)
+    print(data)     # output inthe port of tuple
+    print(type(data))
+person1('Binay',28,9856665, 'rkl')
+
+#E.g. 3 Double packing
+print('\nWith key and values: (Double packing)')
+def person2(name,**data):
+    print(name)
+    print(data)
+    print(type(data))           #data in the form of dict
+
+person2('Rahul',age=25,phno=456546564,add='bbsr')
+
+#E.g. 3.1
+print('\n Extracting the dictionary elements: (Double packing)')
+def person3(name,**data):
+    print(name)
+    print(type(data))
+    for i,j in data.items():
+        print(i,j)
+
+person3('Manoj',age=25,phno=456546564,add='bbsr')
+
+#E.g. 4:
+print('\nEg. 4 ')
+def disp(*a):
+    print(*a)
+    print(a)
+    print(type(a))
+#disp(1,2,3,4)
+#or
+def packing (*a):
+    a,b,c,d=1,2,3,4
+    disp(a,b,c,d)
+packing()
+
+#E.g. 5 Double packing
+print('\nE.g. 5 Double packing')
+def disp1(**kwargs):
+    print(*kwargs)
+    print(kwargs)
+    print(type(kwargs))
+def dpacking(**kwargs):
+    disp1(a=1,b=2,c=3,d=4)
+dpacking()

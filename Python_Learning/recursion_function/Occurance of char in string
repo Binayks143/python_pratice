@@ -1,0 +1,12 @@
+#Python Program to Determine How Many Times a Given Letter Occurs in a String Recursively
+def stn(s,c):
+    if not s:
+        return 0
+    elif s[0]==c:
+        return 1 + stn(s[1:],c)
+    else:
+        return stn(s[1:],c)
+
+s=input("Enter the string : ")
+c=input("Enter the char : ")
+print (stn(s,c))

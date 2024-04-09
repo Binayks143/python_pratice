@@ -1,0 +1,10 @@
+08/04/2020 11:32:50 PM - logging_demo - DEBUG: Debug message
+08/04/2020 11:32:50 PM - logging_demo - ERROR: Error message
+08/04/2020 11:32:50 PM - logging_demo - INFO: Information message
+08/04/2020 11:32:50 PM - logging_demo - WARNING: Warning message
+08/04/2020 11:32:50 PM - logging_demo - CRITICAL: Critical message
+03/02/2021 09:55:48 PM - logging_demo- DEBUG: Debug message
+03/02/2021 09:55:48 PM - logging_demo- ERROR: Error message
+03/02/2021 09:55:48 PM - logging_demo- INFO: Information message
+03/02/2021 09:55:48 PM - logging_demo- WARNING: Warning message
+03/02/2021 09:55:48 PM - logging_demo- CRITICAL: Critical message

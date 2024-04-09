@@ -1,0 +1,17 @@
+class A:
+    a=20
+    b=30
+    def __init__(self):
+        print('Init in parent class')
+
+class B(A):
+    c=40
+    d=50
+    def __init__(self):
+        print('Init in child class')
+        super().__init__()                    #super() is used to clled immediate parent constructor
+        #or using class name
+        A.__init__(self)
+
+#oa=A()
+ob=B()

@@ -1,0 +1,25 @@
+#if suppose like this 200 functions are available and and in all function we have calculate execution time then we have to write the time program 200 times in all function thus it effect the size of programe and also performance so instead of this we can use Decorators.
+
+import time         #importing to calculate execution time
+def square(n):
+    start=time.time()
+    result=[]
+    for i in n:
+        result.append(i*i)
+    end=time.time()
+    print("Execution time is " + str((end-start)*1000 ) + ' Milliseconds')
+    return result
+
+def cube(n):
+    start = time.time()
+    l=[]
+    for i in n:
+       l.append(i*i*i)
+    end = time.time()
+    print("Execution time is " + str((end - start) * 1000 )+ ' Milliseconds')
+    return l
+
+p=range(1,100000)
+square(p)
+cube(p)
+#print(cube(range(5)))

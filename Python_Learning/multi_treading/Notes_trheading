@@ -1,0 +1,19 @@
+# multithreading is a way of achieving multitasking. In multithreading, the concept of threads is used.
+# To import the threading module, we do: import threading
+
+# To create a new thread, we create an object of Thread class. It takes following arguments:
+target: the function to be executed by thread
+args: the arguments to be passed to the target function
+
+# In above example, we created 2 threads with different target functions:
+t1 = threading.Thread(target=print_square, args=(10,))
+t2 = threading.Thread(target=print_cube, args=(10,))
+
+# To start a thread, we use start method of Thread class.
+t1.start()
+t2.start()
+
+# Once the threads start, the current program (you can think of it like a main thread) also keeps on executing. In order to stop execution of current program until a thread is complete, we use join method.
+t1.join()
+t2.join()
+As a result, the current program will first wait for the completion of t1 and then t2. Once, they are finished, the remaining statements of current program are executed.

@@ -1,0 +1,672 @@
+[
+    {
+        "AttachedSensors": [
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "1",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor1",
+                "Tags": [
+                    {
+                        "Topic": "Sensor1",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            },
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "2",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor2",
+                "Tags": [
+                    {
+                        "Topic": "Sensor2",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            },
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "3",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor3",
+                "Tags": [
+                    {
+                        "Topic": "Sensor3",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            }
+        ],
+        "Brokers": [
+            {
+                "BrokerName": "192.168.1.129",
+                "IpAddress": "192.168.1.129",
+                "Password": "4X4vF5J0ncI=",
+                "PortNumber": 1883,
+                "UserName": "vegam129"
+            }
+        ],
+        "EquipmentClass": "",
+        "EquipmentID": "MotorTypeEquipment_2021_03_motor1",
+        "EquipmentName": "Motor1",
+        "EquipmentNumber": "E0734_1"
+    },
+    {
+        "AttachedSensors": [
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "1",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor1",
+                "Tags": [
+                    {
+                        "Topic": "Sensor1",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor1/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor1/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            },
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "2",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor2",
+                "Tags": [
+                    {
+                        "Topic": "Sensor2",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor2/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor2/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            },
+            {
+                "AxisX": "X",
+                "AxisY": "Y",
+                "AxisZ": "Z",
+                "ConnectionMode": "B",
+                "SensorIdentifier": "3",
+                "SensorIdentifierOld": "",
+                "SensorMacID": "Sensor3",
+                "Tags": [
+                    {
+                        "Topic": "Sensor3",
+                        "TopicRepresents": "NONE",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSX",
+                        "TopicRepresents": "RMSX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityX",
+                        "TopicRepresents": "VELOCITYX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementX",
+                        "TopicRepresents": "DISPLACEMENTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTX",
+                        "TopicRepresents": "FFTX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerX",
+                        "TopicRepresents": "ACCX",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSY",
+                        "TopicRepresents": "RMSY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityY",
+                        "TopicRepresents": "VELOCITYY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementY",
+                        "TopicRepresents": "DISPLACEMENTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTY",
+                        "TopicRepresents": "FFTY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerY",
+                        "TopicRepresents": "ACCY",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/RMSZ",
+                        "TopicRepresents": "RMSZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/VelocityZ",
+                        "TopicRepresents": "VELOCITYZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/DisplacementZ",
+                        "TopicRepresents": "DISPLACEMENTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/FFTZ",
+                        "TopicRepresents": "FFTZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/AccelerometerZ",
+                        "TopicRepresents": "ACCZ",
+                        "TopicType": "S"
+                    },
+                    {
+                        "Topic": "Sensor3/OnOffStatus",
+                        "TopicRepresents": "ONOFF",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/HealthStatus",
+                        "TopicRepresents": "HEALTH",
+                        "TopicType": "P"
+                    },
+                    {
+                        "Topic": "Sensor3/FaultStatus",
+                        "TopicRepresents": "FAULT",
+                        "TopicType": "P"
+                    }
+                ]
+            }
+        ],
+        "Brokers": [
+            {
+                "BrokerName": "192.168.1.129",
+                "IpAddress": "192.168.1.129",
+                "Password": "4X4vF5J0ncI=",
+                "PortNumber": 1883,
+                "UserName": "vegam129"
+            }
+        ],
+        "EquipmentClass": "",
+        "EquipmentID": "MotorTypeEquipment_2021_03_motor2",
+        "EquipmentName": "Motor2",
+        "EquipmentNumber": "E0734_2"
+    }
+]

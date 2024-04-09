@@ -1,0 +1,7 @@
+1)  Ctrl + / = comment multiple selected lines
+2)  There are two ways of closing all tabs in the editor, except the current one:
+First, right-click the editor tab, and choose Close Others on the context menu.
+Second, keeping the Alt key pressed, click   on the editor tab.
+3) In PyCharm, you can have multiple cursors. Having pressed Alt, click the left mouse button at the desired position to set additional cursors in the editor.
+Press Escape to remove all the additional cursors but one that resides at the line at caret.
+
