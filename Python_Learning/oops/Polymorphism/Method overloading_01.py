@@ -17,10 +17,10 @@ print(A.add([1,2,3],[4,5,6,3]))
 
 # How to achived where no. of args are variable
 # here three req should be available
-# (1) Min mandatory args        (2) Max no of args that a method can have       # data type
+# (1) Min mandatory args        (2) Max no of args that a method can have       (3) data type
 # E.g.1 ->(1) Min mandatory args=2   (2) Max no of args that a method can have = 5  (3) data typ =int
 
-print("\nHow to achived where no. of args are variable data type ont/float")
+print("\nHow to achived where no. of args are variable data type int/float")
 def add(a,b,c=0,d=0,e=0):
     return a+b+c+d+e
 print(add(5,45))
